@@ -359,7 +359,7 @@ body {
 }
 
 .home__title {
-  font-size: 34px;
+  font-size: 40px;
   margin-bottom: 2rem;
 }
 
@@ -425,6 +425,7 @@ body {
 
 .about__description {
   margin-bottom: 2rem;
+  font-size: 22px;
 }
 
 .about__img {
@@ -850,7 +851,7 @@ body {
   max-width: 40rem;
   border-radius: var(--b-radius);
   justify-self: center;
-  gap: 5rem;
+  gap: 7rem;
 }
 
 .contact__info {
