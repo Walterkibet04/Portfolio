@@ -502,44 +502,8 @@ body {
       width: 90%;
   }
 }
-.skill_bar .bar .css{
-  width: 85%;
-  animation: css 2s;
-}
-
-@keyframes css {
-  0%{
-      width: 0%;
-  }100%{
-      width: 85%;
-  }
-}
-.skill_bar .bar .sass{
-  width: 80%;
-  animation: sass 2s;
-}
-@keyframes sass {
-  0%{
-      width: 0%;
-  }100%{
-      width: 80%;
-  }
-
-}
-
-.skill_bar .bar .js{
-  width: 80%;
-  animation: css 2s;
-}
-@keyframes js {
-  0%{
-      width: 0%;
-  }100%{
-      width: 80%;
-  }
-}
 .skill_bar .bar .react{
-  width: 75%;
+  width: 80%;
   animation: react 2s;
 }
 
@@ -547,15 +511,51 @@ body {
   0%{
       width: 0%;
   }100%{
-      width: 75%;
+      width: 80%;
   }
 }
-.skill_bar .bar .node{
-  width: 70%;
-  animation: node 2s;
+.skill_bar .bar .css{
+  width: 80%;
+  animation: css 2s;
+}
+@keyframes css {
+  0%{
+      width: 0%;
+  }100%{
+      width: 80%;
+  }
+
 }
 
-@keyframes node {
+.skill_bar .bar .MySQL{
+  width: 80%;
+  animation: css 2s;
+}
+@keyframes MySQL {
+  0%{
+      width: 0%;
+  }100%{
+      width: 80%;
+  }
+}
+.skill_bar .bar .Bootstrap{
+  width: 85%;
+  animation: Bootstrap 2s;
+}
+
+@keyframes Bootstrap {
+  0%{
+      width: 0%;
+  }100%{
+      width: 85%;
+  }
+}
+.skill_bar .bar .python{
+  width: 70%;
+  animation: python 2s;
+}
+
+@keyframes python {
   0%{
       width: 0%;
   }100%{
@@ -563,23 +563,23 @@ body {
   }
 }
 
-.skill_bar .bar .express{
-  width: 65%;
-  animation: express 2s;
+.skill_bar .bar .javascript{
+  width: 75%;
+  animation: javascript 2s;
 }
 
-@keyframes express {
+@keyframes  javascript {
   0%{
       width: 0%;
   }100%{
       width: 65%;
   }
 }
-.skill_bar .bar .mongo{
-  width: 60%;
-  animation: mongo 2s;
+.skill_bar .bar .django{
+  width: 75%;
+  animation: django 2s;
 }
-@keyframes mongo {
+@keyframes django {
   0%{
       width: 0%;
   }100%{
@@ -662,6 +662,9 @@ body {
 
 /* Portfolio
 --------------------------------------------------------------*/
+.portfolio__wrapper{
+  margin-bottom: 20px;
+}
 .portfolio__project {
   position: relative;
   width: 100%;
@@ -692,8 +695,8 @@ body {
 
 .portfolio__link {
   position: absolute;
-  top: 2rem;
-  right: -100%;
+  top: 50%;
+  right: 100%;
   width: 5rem;
   height: 5rem;
   background-color: var(--color-white);
