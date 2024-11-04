@@ -492,18 +492,18 @@ body {
   border-radius: 25px;
 }
 .skill_bar .bar .html{
-  width: 90%;
+  width: 100%;
   animation: html 2s;
 }
 @keyframes html {
   0%{
       width: 0%;
   }100%{
-      width: 90%;
+      width: 100%;
   }
 }
 .skill_bar .bar .react{
-  width: 80%;
+  width: 100%;
   animation: react 2s;
 }
 
@@ -511,35 +511,35 @@ body {
   0%{
       width: 0%;
   }100%{
-      width: 80%;
+      width: 100%;
   }
 }
 .skill_bar .bar .css{
-  width: 80%;
+  width: 100%;
   animation: css 2s;
 }
 @keyframes css {
   0%{
       width: 0%;
   }100%{
-      width: 80%;
+      width: 100%;
   }
 
 }
 
 .skill_bar .bar .MySQL{
-  width: 80%;
+  width: 100%;
   animation: css 2s;
 }
 @keyframes MySQL {
   0%{
       width: 0%;
   }100%{
-      width: 80%;
+      width: 100%;
   }
 }
 .skill_bar .bar .Bootstrap{
-  width: 85%;
+  width: 100%;
   animation: Bootstrap 2s;
 }
 
@@ -547,11 +547,11 @@ body {
   0%{
       width: 0%;
   }100%{
-      width: 85%;
+      width: 100%;
   }
 }
 .skill_bar .bar .python{
-  width: 70%;
+  width: 100%;
   animation: python 2s;
 }
 
@@ -559,12 +559,12 @@ body {
   0%{
       width: 0%;
   }100%{
-      width: 70%;
+      width: 100%;
   }
 }
 
 .skill_bar .bar .javascript{
-  width: 75%;
+  width: 100%;
   animation: javascript 2s;
 }
 
@@ -572,18 +572,18 @@ body {
   0%{
       width: 0%;
   }100%{
-      width: 65%;
+      width: 100%;
   }
 }
 .skill_bar .bar .django{
-  width: 75%;
+  width: 100%;
   animation: django 2s;
 }
 @keyframes django {
   0%{
       width: 0%;
   }100%{
-      width: 60%;
+      width: 100%;
   }
 }
 
