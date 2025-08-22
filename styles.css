@@ -592,6 +592,18 @@ body {
 .portfolio__wrapper{
   margin-bottom: 20px;
 }
+.portfolio__item {
+  border: 1px solid #eee;
+  border-radius: var(--b-radius);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.portfolio__item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* stronger shadow on hover */
+  transform: translateY(-4px); /* slight lift */
+}
 .portfolio__project {
   position: relative;
   width: 100%;
@@ -620,25 +632,26 @@ body {
   color: var(--color-white);
 }
 
-.portfolio__link {
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  width: 5rem;
-  height: 5rem;
-  background-color: var(--color-white);
-  color: var(--color-title);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.2rem;
-  transition: var(--transition);
+.portfolio__btn {
+  display: block;
+  width: calc(100% - 2rem); /* leaves spacing inside card */
+  margin: 1rem auto;        /* spacing from content */
+  padding: 0.9rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  font-weight: var(--fw-semibold);
+  text-decoration: none;
+  text-align: center;
+  border-radius: var(--b-radius);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.portfolio__link:hover {
-  background-color: var(--color-primary);
-  color: var(--color-white);
+.portfolio__btn:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.18);
 }
 
 .portfolio__overlay {
