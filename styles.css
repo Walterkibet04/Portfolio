@@ -601,8 +601,8 @@ body {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .portfolio__item:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* stronger shadow on hover */
-  transform: translateY(-4px); /* slight lift */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
 }
 .portfolio__project {
   position: relative;
@@ -634,9 +634,9 @@ body {
 
 .portfolio__btn {
   display: block;
-  width: calc(100% - 2rem); /* leaves spacing inside card */
-  margin: 1rem auto;        /* spacing from content */
-  padding: 0.9rem;
+  width: calc(100% - 2rem);
+  margin: 1rem auto;        
+  padding: 1.2rem;
   background-color: var(--color-primary);
   color: #fff;
   font-weight: var(--fw-semibold);
